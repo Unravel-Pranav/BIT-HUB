@@ -1,0 +1,35 @@
+.center-text {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 50vh; /* Adjust this to control the vertical centering */
+}
+
+
+
+
+.filterbar {
+  background-color: rgb(255, 255, 255);
+}
+.select-feild {
+  background-color: rgb(10, 19, 27);
+}
+.text-animation {
+  display: inline-block;
+  overflow: hidden;
+}
+
+.animated-text {
+  display: inline-block;
+  animation: slide 10s linear infinite;
+}
+
+@keyframes slide {
+  0% {
+    transform: translateY(0);
+  }
+  100% {
+    transform: translateY(-100%);
+  }
+}

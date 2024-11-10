@@ -1,0 +1,35 @@
+body{
+    background-color: rgb(253, 253, 253);
+}
+body {
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+  }
+  
+  h1 {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 36px;
+    font-weight: bold;
+  }
+  
+  h2 {
+    font-family: 'Lato', sans-serif;
+    font-size: 28px;
+    font-weight: bold;
+  }
+  
+  p {
+    font-family: 'Arial', sans-serif;
+    font-size: 18px;
+  }
+  
+  a {
+    font-family: 'Helvetica', sans-serif;
+    font-size: 16px;
+    text-decoration: none;
+    color: #007bff;
+  }
+  
+  /* You can add more specific styles for different elements as needed */
+  
