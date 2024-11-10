@@ -27,7 +27,7 @@ export default function ResultDisplay() {
   };
 
   const fetchlatestFiles = async () => {
-    const res = await axios.get('http://localhost:8000/api/accpetedresource')
+    const res = await axios.get('https://bit-hub-22ky.onrender.com/api/accpetedresource')
     // const res = await fetchLateshFile();
     setFileUrls(res.data.data);
     setisget(true);

@@ -45,7 +45,7 @@ export default function Navbar() {
     // set loading true
     setLoading(true);
     try {
-      const response = await axios.get("http://localhost:8000/api", {
+      const response = await axios.get("https://bit-hub-22ky.onrender.com/api", {
         headers: {
           Authorization: `${localStorage.getItem("access_token")}`,
         },

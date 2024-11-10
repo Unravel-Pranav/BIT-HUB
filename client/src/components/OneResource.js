@@ -21,7 +21,7 @@ const BarComponent = ({ data }) => {
 
   const downloadFile = async (id) => {
     try {
-      const res = await axios.get(`http://localhost:8000/api/download/${id}`, {
+      const res = await axios.get(`https://bit-hub-22ky.onrender.com/api/download/${id}`, {
         responseType: "blob",
       });
       const blob = new Blob([res.data]);

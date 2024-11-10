@@ -20,7 +20,7 @@ const ManageStudentResources = () => {
 
   const getResourceList = async () => {
     try {
-      const res = await axios.get('http://localhost:8000/api/studentresource/')
+      const res = await axios.get('https://bit-hub-22ky.onrender.com/api/studentresource/')
       setResourceList(res.data.data)
     } catch (error) {
       console.log(error)
@@ -49,7 +49,7 @@ const ManageStudentResources = () => {
 
   const downloadFile = async (resource) => {
     try {
-      const res = await axios.get(`http://localhost:8000/api/download/${resource._id}`, {
+      const res = await axios.get(`https://bit-hub-22ky.onrender.com/api/download/${resource._id}`, {
         responseType: "blob",
       });
       const blob = new Blob([res.data]);
