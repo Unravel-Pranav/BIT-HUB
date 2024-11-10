@@ -1,6 +1,6 @@
 import axios from 'axios';
 
-const URL = 'https://bit-hub-22ky.onrender.com';
+const URL = 'https://bit-hub-22ky.onrender.com/api';
 
 
 // addsubject api
