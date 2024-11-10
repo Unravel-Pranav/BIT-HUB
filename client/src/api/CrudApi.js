@@ -1,6 +1,6 @@
 import axios from 'axios';
 
-const URL = 'http://localhost:8000/api';
+const URL = 'https://bit-hub-22ky.onrender.com';
 
 export const uploadFile = async(file,inputformData) => {
     const formData = new FormData();
