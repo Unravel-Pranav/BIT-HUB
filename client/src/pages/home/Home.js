@@ -24,7 +24,7 @@ export default function Home() {
           <div className="col-md-6 mb-2 d-none d-md-block">
             <img
               className="img-fluid"
-              src="https://github.com/Unravel-Pranav/BIT-HUB/blob/main/client/public/Animated_Maa_Saraswati_devi.png"
+              src="https://github.com/user-attachments/assets/c1ea6c5f-4231-4e0a-9986-4dd0ccf69677"
               alt=""
             />
           </div>
